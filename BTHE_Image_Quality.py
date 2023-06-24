@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('image/cell_frame012302_x0143_y0397_red.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('image/cell_frame004148_x0126_y0201_red.jpg', cv2.IMREAD_GRAYSCALE)
 height, width = image.shape
 
 start_point = (0, height // 2)
