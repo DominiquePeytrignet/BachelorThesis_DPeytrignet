@@ -19,6 +19,14 @@ To run this project, following Python libraries have to be installedwith the pip
 - **vedo**: Vedo library with the pip command "**pip install vedo**".
 
 ## Folder Structure
+- The [Images_for_prediction](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/Images_for_prediction) folder is for storing the input image, from which the shape prediction is going to be made. These input images don't  have the required 64x64pixels format yet, are not in grayscale yet or both.
+- The [Images](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/image) folder is used for storing the grayscale images which are preprocessed. Initially this folder can be empty.
+- The[Mask](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/mask) folder is used for storing the binary segmentation of the RBC which are preprocessed. Initially this folder can be empty.
+- The [Logs](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/logs) folder, the pre_trained model can be stored, which will perform the prediction. 
+- In the [Results](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/Results) folder, the predictions are stored as tif-files.
+- In the [Created_Images](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/Created_Images) folder, all the images are stored which are created during execution of the scripts.
+- In the [Data_Analysis](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/tree/main/Data_Analysis) folder,excel files are stored with the absorption imaging data, and data from the training set of SHAPR.
+### Note, that it is important to not change the folder names. 
 
 
 
