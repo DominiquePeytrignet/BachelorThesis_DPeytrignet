@@ -1,6 +1,8 @@
 # 3D Shape Prediction by 2D Image Information 
 The  following  Bachelor  Thesis covers  the  topic on  how  the  shape of  an  object can  be estimated based on 2D information, i.e. images, which is a difficult problem for machines. This work treats this problem in the specific case of reconstructing and estimating the shape and volume of red blood cells, based on single microscopic images. Therefore the goal of this thesis was to present a method on how this task can be fulfilled. The SHAPR-Framework provides an open-source package which can generate 3D cell predictions based on single cell images. Over 10’000 microscopic images, containing single red blood cells from a patient, have been used to make predictions. The results show that these predictions create realistic cell shapes and accurate  volume  estimations,  which  align with  the  true values  from  the blood sample. With the presented SHAPR-Framework, the diagnosis of home patients can be further enhanced. 
 
+[Image](https://github.com/DominiquePeytrignet/BachelorThesis_DPeytrignet/blob/main/readme_image.png)
+
 ## Installation
 To run this project, following Python libraries have to be installedwith the pip command:
 
